@@ -1,0 +1,36 @@
+C:\Users\Mahmoud Ali\source\repos\SGSProject\Domain\bin\Debug\netcoreapp3.1\SGS.Domain.deps.json
+C:\Users\Mahmoud Ali\source\repos\SGSProject\Domain\bin\Debug\netcoreapp3.1\SGS.Domain.runtimeconfig.json
+C:\Users\Mahmoud Ali\source\repos\SGSProject\Domain\bin\Debug\netcoreapp3.1\SGS.Domain.runtimeconfig.dev.json
+C:\Users\Mahmoud Ali\source\repos\SGSProject\Domain\bin\Debug\netcoreapp3.1\SGS.Domain.dll
+C:\Users\Mahmoud Ali\source\repos\SGSProject\Domain\bin\Debug\netcoreapp3.1\SGS.Domain.pdb
+C:\Users\Mahmoud Ali\source\repos\SGSProject\Domain\obj\Debug\netcoreapp3.1\SGS.Domain.AssemblyInfoInputs.cache
+C:\Users\Mahmoud Ali\source\repos\SGSProject\Domain\obj\Debug\netcoreapp3.1\SGS.Domain.AssemblyInfo.cs
+C:\Users\Mahmoud Ali\source\repos\SGSProject\Domain\obj\Debug\netcoreapp3.1\SGS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Mahmoud Ali\source\repos\SGSProject\Domain\obj\Debug\netcoreapp3.1\SGS.Domain.dll
+C:\Users\Mahmoud Ali\source\repos\SGSProject\Domain\obj\Debug\netcoreapp3.1\SGS.Domain.pdb
+C:\Users\Mahmoud Ali\source\repos\SGSProject\Domain\obj\Debug\netcoreapp3.1\SGS.Domain.genruntimeconfig.cache
+C:\Users\Mahmoud Ali\source\repos\SGSProject\Domain\obj\Debug\netcoreapp3.1\SGS.Domain.csprojAssemblyReference.cache
+C:\Users\Mahmoud Ali\Desktop\SGSProject\Domain\bin\Debug\netcoreapp3.1\SGS.Domain.deps.json
+C:\Users\Mahmoud Ali\Desktop\SGSProject\Domain\bin\Debug\netcoreapp3.1\SGS.Domain.runtimeconfig.json
+C:\Users\Mahmoud Ali\Desktop\SGSProject\Domain\bin\Debug\netcoreapp3.1\SGS.Domain.runtimeconfig.dev.json
+C:\Users\Mahmoud Ali\Desktop\SGSProject\Domain\bin\Debug\netcoreapp3.1\SGS.Domain.dll
+C:\Users\Mahmoud Ali\Desktop\SGSProject\Domain\bin\Debug\netcoreapp3.1\SGS.Domain.pdb
+C:\Users\Mahmoud Ali\Desktop\SGSProject\Domain\obj\Debug\netcoreapp3.1\SGS.Domain.AssemblyInfoInputs.cache
+C:\Users\Mahmoud Ali\Desktop\SGSProject\Domain\obj\Debug\netcoreapp3.1\SGS.Domain.AssemblyInfo.cs
+C:\Users\Mahmoud Ali\Desktop\SGSProject\Domain\obj\Debug\netcoreapp3.1\SGS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Mahmoud Ali\Desktop\SGSProject\Domain\obj\Debug\netcoreapp3.1\SGS.Domain.dll
+C:\Users\Mahmoud Ali\Desktop\SGSProject\Domain\obj\Debug\netcoreapp3.1\SGS.Domain.pdb
+C:\Users\Mahmoud Ali\Desktop\SGSProject\Domain\obj\Debug\netcoreapp3.1\SGS.Domain.genruntimeconfig.cache
+C:\Users\bashar\Desktop\SGSProject\Domain\bin\Debug\netcoreapp3.1\SGS.Domain.deps.json
+C:\Users\bashar\Desktop\SGSProject\Domain\bin\Debug\netcoreapp3.1\SGS.Domain.runtimeconfig.json
+C:\Users\bashar\Desktop\SGSProject\Domain\bin\Debug\netcoreapp3.1\SGS.Domain.runtimeconfig.dev.json
+C:\Users\bashar\Desktop\SGSProject\Domain\bin\Debug\netcoreapp3.1\SGS.Domain.dll
+C:\Users\bashar\Desktop\SGSProject\Domain\bin\Debug\netcoreapp3.1\SGS.Domain.pdb
+C:\Users\bashar\Desktop\SGSProject\Domain\obj\Debug\netcoreapp3.1\SGS.Domain.csproj.AssemblyReference.cache
+C:\Users\bashar\Desktop\SGSProject\Domain\obj\Debug\netcoreapp3.1\SGS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bashar\Desktop\SGSProject\Domain\obj\Debug\netcoreapp3.1\SGS.Domain.AssemblyInfoInputs.cache
+C:\Users\bashar\Desktop\SGSProject\Domain\obj\Debug\netcoreapp3.1\SGS.Domain.AssemblyInfo.cs
+C:\Users\bashar\Desktop\SGSProject\Domain\obj\Debug\netcoreapp3.1\SGS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\bashar\Desktop\SGSProject\Domain\obj\Debug\netcoreapp3.1\SGS.Domain.dll
+C:\Users\bashar\Desktop\SGSProject\Domain\obj\Debug\netcoreapp3.1\SGS.Domain.pdb
+C:\Users\bashar\Desktop\SGSProject\Domain\obj\Debug\netcoreapp3.1\SGS.Domain.genruntimeconfig.cache

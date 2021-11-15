@@ -1,0 +1,46 @@
+C:\Users\Mahmoud Ali\source\repos\SGSProject\SGS.Services\bin\Debug\netcoreapp3.1\SGS.Services.deps.json
+C:\Users\Mahmoud Ali\source\repos\SGSProject\SGS.Services\bin\Debug\netcoreapp3.1\SGS.Services.dll
+C:\Users\Mahmoud Ali\source\repos\SGSProject\SGS.Services\bin\Debug\netcoreapp3.1\SGS.Services.pdb
+C:\Users\Mahmoud Ali\source\repos\SGSProject\SGS.Services\obj\Debug\netcoreapp3.1\SGS.Services.csprojAssemblyReference.cache
+C:\Users\Mahmoud Ali\source\repos\SGSProject\SGS.Services\obj\Debug\netcoreapp3.1\SGS.Services.AssemblyInfoInputs.cache
+C:\Users\Mahmoud Ali\source\repos\SGSProject\SGS.Services\obj\Debug\netcoreapp3.1\SGS.Services.AssemblyInfo.cs
+C:\Users\Mahmoud Ali\source\repos\SGSProject\SGS.Services\obj\Debug\netcoreapp3.1\SGS.Services.csproj.CoreCompileInputs.cache
+C:\Users\Mahmoud Ali\source\repos\SGSProject\SGS.Services\obj\Debug\netcoreapp3.1\SGS.Services.dll
+C:\Users\Mahmoud Ali\source\repos\SGSProject\SGS.Services\obj\Debug\netcoreapp3.1\SGS.Services.pdb
+C:\Users\Mahmoud Ali\source\repos\SGSProject\SGS.Services\bin\Debug\netcoreapp3.1\SGS.Domain.dll
+C:\Users\Mahmoud Ali\source\repos\SGSProject\SGS.Services\bin\Debug\netcoreapp3.1\SGS.Repositories.dll
+C:\Users\Mahmoud Ali\source\repos\SGSProject\SGS.Services\bin\Debug\netcoreapp3.1\SGS.Domain.pdb
+C:\Users\Mahmoud Ali\source\repos\SGSProject\SGS.Services\bin\Debug\netcoreapp3.1\SGS.Repositories.pdb
+C:\Users\Mahmoud Ali\source\repos\SGSProject\SGS.Services\obj\Debug\netcoreapp3.1\SGS.Services.csproj.CopyComplete
+C:\Users\Mahmoud Ali\Desktop\SGSProject\SGS.Services\bin\Debug\netcoreapp3.1\SGS.Services.deps.json
+C:\Users\Mahmoud Ali\Desktop\SGSProject\SGS.Services\bin\Debug\netcoreapp3.1\SGS.Services.dll
+C:\Users\Mahmoud Ali\Desktop\SGSProject\SGS.Services\bin\Debug\netcoreapp3.1\SGS.Services.pdb
+C:\Users\Mahmoud Ali\Desktop\SGSProject\SGS.Services\bin\Debug\netcoreapp3.1\SGS.Domain.dll
+C:\Users\Mahmoud Ali\Desktop\SGSProject\SGS.Services\bin\Debug\netcoreapp3.1\SGS.Repositories.dll
+C:\Users\Mahmoud Ali\Desktop\SGSProject\SGS.Services\bin\Debug\netcoreapp3.1\SGS.Repositories.pdb
+C:\Users\Mahmoud Ali\Desktop\SGSProject\SGS.Services\bin\Debug\netcoreapp3.1\SGS.Domain.pdb
+C:\Users\Mahmoud Ali\Desktop\SGSProject\SGS.Services\obj\Debug\netcoreapp3.1\SGS.Services.csprojAssemblyReference.cache
+C:\Users\Mahmoud Ali\Desktop\SGSProject\SGS.Services\obj\Debug\netcoreapp3.1\SGS.Services.AssemblyInfoInputs.cache
+C:\Users\Mahmoud Ali\Desktop\SGSProject\SGS.Services\obj\Debug\netcoreapp3.1\SGS.Services.AssemblyInfo.cs
+C:\Users\Mahmoud Ali\Desktop\SGSProject\SGS.Services\obj\Debug\netcoreapp3.1\SGS.Services.csproj.CoreCompileInputs.cache
+C:\Users\Mahmoud Ali\Desktop\SGSProject\SGS.Services\obj\Debug\netcoreapp3.1\SGS.Services.csproj.CopyComplete
+C:\Users\Mahmoud Ali\Desktop\SGSProject\SGS.Services\obj\Debug\netcoreapp3.1\SGS.Services.dll
+C:\Users\Mahmoud Ali\Desktop\SGSProject\SGS.Services\obj\Debug\netcoreapp3.1\SGS.Services.pdb
+C:\Users\bashar\Desktop\SGSProject\SGS.Services\bin\Debug\netcoreapp3.1\SGS.Services.deps.json
+C:\Users\bashar\Desktop\SGSProject\SGS.Services\bin\Debug\netcoreapp3.1\SGS.Services.dll
+C:\Users\bashar\Desktop\SGSProject\SGS.Services\bin\Debug\netcoreapp3.1\SGS.Services.pdb
+C:\Users\bashar\Desktop\SGSProject\SGS.Services\bin\Debug\netcoreapp3.1\SGS.Domain.dll
+C:\Users\bashar\Desktop\SGSProject\SGS.Services\bin\Debug\netcoreapp3.1\SGS.Repositories.dll
+C:\Users\bashar\Desktop\SGSProject\SGS.Services\bin\Debug\netcoreapp3.1\SGS.Repositories.pdb
+C:\Users\bashar\Desktop\SGSProject\SGS.Services\bin\Debug\netcoreapp3.1\SGS.Domain.pdb
+C:\Users\bashar\Desktop\SGSProject\SGS.Services\obj\Debug\netcoreapp3.1\SGS.Services.csproj.AssemblyReference.cache
+C:\Users\bashar\Desktop\SGSProject\SGS.Services\obj\Debug\netcoreapp3.1\SGS.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bashar\Desktop\SGSProject\SGS.Services\obj\Debug\netcoreapp3.1\SGS.Services.AssemblyInfoInputs.cache
+C:\Users\bashar\Desktop\SGSProject\SGS.Services\obj\Debug\netcoreapp3.1\SGS.Services.AssemblyInfo.cs
+C:\Users\bashar\Desktop\SGSProject\SGS.Services\obj\Debug\netcoreapp3.1\SGS.Services.csproj.CoreCompileInputs.cache
+C:\Users\bashar\Desktop\SGSProject\SGS.Services\obj\Debug\netcoreapp3.1\SGS.Services.dll
+C:\Users\bashar\Desktop\SGSProject\SGS.Services\obj\Debug\netcoreapp3.1\SGS.Services.pdb
+C:\Users\bashar\Desktop\SGSProject\SGS.Services\bin\Debug\netcoreapp3.1\SGS.Services.runtimeconfig.json
+C:\Users\bashar\Desktop\SGSProject\SGS.Services\bin\Debug\netcoreapp3.1\SGS.Services.runtimeconfig.dev.json
+C:\Users\bashar\Desktop\SGSProject\SGS.Services\obj\Debug\netcoreapp3.1\SGS.Services.genruntimeconfig.cache
+C:\Users\bashar\Desktop\SGSProject\SGS.Services\obj\Debug\netcoreapp3.1\SGS.Services.csproj.CopyComplete

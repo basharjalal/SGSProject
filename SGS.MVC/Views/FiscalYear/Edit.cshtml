@@ -1,0 +1,66 @@
+﻿@using SGS.Domain.Entities;
+@model FiscalYear
+<script src="~/js/site.js"></script>
+<div class="b9">
+    <form asp-action="Edit"
+          asp-controller="FiscalYear"
+          asp-method="post">
+        <div class="form-group">
+            <lable class="float-right" for="ClubName" asp-for="ClubName">اسم النادي</lable>
+            <input id="ClubName" class="form-control  " asp-for="ClubName" type="text" placeholder="اسم النادي" />
+            <span asp-validation-for="ClubName" class="text-danger"></span>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <lable class="float-right" for="EnglishName" asp-for="EnglishName">الاسم بالانجليزية</lable>
+                    <input id="EnglishName" class="form-control" asp-for="EnglishName" type="text" placeholder="لاسم بالانجليزية" />
+                    <span asp-validation-for="EnglishName" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <lable class="float-right" for="ArabicName" asp-for="ArabicName">االاسم بالعربية</lable>
+                    <input id="ArabicName" class="form-control" asp-for="ArabicName" type="text" placeholder="الاسم بالعربية" />
+                    <span asp-validation-for="ArabicName" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <lable class="float-right" for="StartedDate" asp-for="StartedDate">تاريخ البداية</lable>
+                    <input class="form-control" asp-for="StartedDate" />
+                    <span asp-validation-for="StartedDate" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <lable class="float-right" asp-for="EndedDate">تاريخ النهاية</lable>
+                    <input class="form-control" asp-for="EndedDate" />
+                    <span asp-validation-for="EndedDate" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <lable class="float-right" for="Status" asp-for="Status">الحالة</lable>
+            <span asp-validation-for="Status" class="text-danger"></span>
+            <input class="radio-inline" id="Status12" asp-for="Status" type="radio" name="Status" value="11" hidden checked />
+        </div>
+        <div class="row container">
+            <div class="form-group">
+                <input class="radio-inline" id="Status1" asp-for="Status" type="radio" name="Status" value="0" />
+                <lable class="radio-inline" for="Status1">مفتوحة</lable>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="row container">
+                <input class="radio-inline" id="Status2" asp-for="Status" type="radio" name="Status" value="1" />
+                <lable class="radio-inline" for="Status2">مغلقة </lable>
+            </div>
+        </div>
+        <input class="btn btn-primary" id="Submit1" type="submit" value="حفظ" />
+        <a class="btn btn-danger" asp-area="" asp-controller="FiscalYear" asp-action="Index">الغاء</a>
+    </form>
+</div>

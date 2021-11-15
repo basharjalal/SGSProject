@@ -1,0 +1,115 @@
+﻿@using SGS.Domain.Entities;
+@model InvoiceHDR
+<link href="~/css/bootstrap_rtl.css" rel="stylesheet" />
+<script src="~/js/site.js"></script>
+<script src="~/js/site.js"></script>
+<div>
+
+    <hr />
+    <form asp-action="Create"
+          asp-controller="InvoiceHDR"
+          asp-method="post">
+        <div class="row">
+            <div class="col">
+
+                <div class="form-group">
+                    <lable for="InvoiceNum" asp-for="InvoiceNum">Invoice Num</lable>
+                    <input id="InvoiceNum" class="form-control  " asp-for="InvoiceNum" type="text" placeholder="InvoiceNum" />
+                    <span asp-validation-for="InvoiceNum" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <lable for="InvoiceDate" asp-for="InvoiceDate">Invoice Date</lable>
+                    <input class="form-control" type="date" id="InvoiceDate" name="StartedDate" value="@DateTime.Now" ) />
+                    <span asp-validation-for="InvoiceDate" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <lable for="Customer" asp-for="Customer">Customer</lable>
+                    <input id="Customer" class="form-control" asp-for="Customer" type="text" placeholder="Customer" />
+                    <span asp-validation-for="Customer" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <lable for="PaymentMethod" asp-for="PaymentMethod">Poyment Method</lable>
+                            <span asp-validation-for="PaymentMethod" class="text-danger"></span>
+                            <input class="radio-inline" id="Status12" asp-for="PaymentMethod" type="radio" name="PaymentMethod" value="11" hidden checked />
+                        </div>
+                    </div>
+                    <div class="col">
+
+                        <div class="form-group">
+                            <input class="radio-inline" id="PaymentMethod" asp-for="PaymentMethod" type="radio" name="PaymentMethod" value="0" />
+                            <lable class="radio-inline" for="PaymentMethod">Cosh</lable>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="form-group">
+                            <input class="radio-inline" id="PaymentMethod2" asp-for="PaymentMethod" type="radio" name="PaymentMethod" value="1" />
+                            <lable class="radio-inline" for="PaymentMethod2">Credit</lable>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <lable for="Description" asp-for="Description">Description</lable>
+            <textarea id="Description" rows="2" cols="100" class="form-control  " asp-for="Description" type="text" placeholder="Description"></textarea>
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <p>
+            <div clalss="form-group">
+                <button id="add" type="button" class="btn btn-primary">Add New Row</button>
+            </div>
+        </p>
+
+        <table id="submissionTable" style="width:100%;" border="1">
+            <thead>
+                <tr>
+                    <th>Item Code </th>
+                    <th> Item Name </th>
+                    <th>Qty</th>
+                    <th>Price</th>
+                    <th>Totol</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="tablerow0">
+                    <td>
+                        <input id="ItemCode" class="form-control  " asp-for="itemsDTL.ItemCode" name="ItemCode[0]" type="text" placeholder="ItemCode" required="required" />
+                    </td>
+                    <td>
+                        <input id="ItemName" class="form-control  " asp-for="itemsDTL.ItemName" name="ItemName[0]" type="text" placeholder="ItemName " required="required" />
+                    </td>
+                    <td>
+                        <input id="Qty" class="form-control  " asp-for="itemsDTL.Qty" name="Qty[0]" type="text" placeholder="Qty" required="required" />
+                    </td>
+                    <td>
+                        <input id="Price" class="form-control  " asp-for="itemsDTL.Price" name="Price[0]" type="text" placeholder="Price" oninput="Totol()" required="required" />
+                    </td>
+                    <td>
+                        <input id="Totol" class="form-control  " type="text" name="Totol[0]" placeholder="Totol" required="required" />
+
+                    </td>
+
+
+            </tbody>
+
+        </table>
+
+        <hr />
+
+        <input class="btn btn-primary" id="Submit1" type="submit" value="save" />
+        <a class="btn btn-danger" asp-area="" asp-controller="FiscalYear" asp-action="Index">new</a>
+        <a class="btn btn-danger" asp-area="" asp-controller="Create" asp-action="Index">back</a>
+    </form>
+</div>

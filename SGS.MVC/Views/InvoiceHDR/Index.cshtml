@@ -1,0 +1,102 @@
+﻿@*@using SGS.Domain.Entities;
+    @model SGS.Domain.Dto.InvoiceHDRViewsModels ;*@
+@using SGS.Domain.Entities;
+@model List<InvoiceHDR> ;
+
+<head>
+    <link href="~/css/css bootstrap.min.css" rel="stylesheet" />
+    <script src="~/js/js bootstrap.bundle.min.js"></script>
+    <script src="~/js/js popper.min.js"></script>
+    <script src="~/js/js bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+
+</head>
+<p>
+    <div clalss="form-group">
+        <a class="btn btn-primary" asp-area="" asp-controller="InvoiceHDR" asp-action="Create"> New Invoices  </a>
+    </div>
+</p>
+<div class="container">
+
+    <table class=" table table-striped table-bordered table-hover  ">
+        <thead class="table-warning">
+            <tr>
+                <th>InvoiceNum </th>
+                <th> InvoiceDate</th>
+                <th>Customer </th>
+                <th>  PaymentMethod </th>
+                <th> Actions </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (InvoiceHDR invoiceHDR in Model)
+            {
+                <tr>
+
+                    <td>
+                        @invoiceHDR.InvoiceNum
+
+                    </td>
+
+                    <td>
+                        @invoiceHDR.InvoiceDate
+                    </td>
+                    <td>
+                        @invoiceHDR.Customer
+
+                    </td>
+                    @if (invoiceHDR.PaymentMethod == 1)
+                    {
+                        <td>
+                            credit cosh
+                        </td>
+                    }
+                    else
+                    {
+                        <td>
+                            cosh
+                        </td>
+                    }
+
+                    <td>
+                        <div class="row">
+                            <div class="col">
+
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    <i class="bi bi-archive"></i>
+                                </button>
+
+                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="staticBackdropLabel">Do you want to complete the deletion process?</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Are you sure to delete this Invoice Num:@invoiceHDR.InvoiceNum
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                                                <a class="btn btn-danger" asp-controller="InvoiceHDR" asp-action="Delete" asp-route-id="@invoiceHDR.InvoiceID">Yes</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="col">
+                                    <a class="btn btn-primary" asp-controller="InvoiceHDR" asp-action="Edit" asp-route-id="@invoiceHDR.InvoiceID">
+                                        <i class="bi bi-pencil-square"></i>
+
+                                    </a>
+                                </div>
+                            </div>
+  
+
+    </td>
+    </tr>
+}
+
+            </tbody>
+            </table>
+            </div>
